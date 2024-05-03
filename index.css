@@ -1416,67 +1416,33 @@
 
     .service{
         color: white;
-        margin-top: 5vh;
+        margin-top: 10vh;
         height: fit-content;
-        display: flex;
-        border: 1px solid red;
     }
 
     .service .awards{
+        height: fit-content;
         display: flex;
+        flex-direction: column;
         padding: 25px 15px;
-        border: 1px solid red;
-    }
-
-    .service .proposal-icon h1{
-        height: 100%;
-        font-size: 30px;
-        margin-right: 20%;
-        margin-top: -10px;
     }
     
     .service .proposal-icon{
+        height: 20vh;
         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    } 
 
-    .service .proposal-icon-text{
-        display: flex;
-    }
-
-    
-    .service .proposal-icon-text p{
+    .service .proposal-icon h1{
+        height: 100%;
         font-size: 35px;
-        color: #666666;
-        font-weight: bolder;
-        margin-top: -30px;
-        margin-bottom: 20px;
-        border: 1px solid red;     
-    }
-
-    .service b{
-        height: 48px;
-        width: 48px;
-        color: white;
-        background-color: #121111;
-        border-radius: 10px;
-        font-size: 30px;
-        margin-bottom: 40px;
-        align-items: center;
-        justify-content: center;  
-    }
-
-    .service b:hover{
-        color: black;
-        background-color: #caf715;
+        margin-right: 40%;
+        margin-top: -10px;
     }
 
     .service-header{   
-        margin-left: -50px;
+        margin-left: -35%;
         display: flex;
-        border: 1px solid red;
-        
+        flex-direction: column;
     }
      
     .service-header h3{  
@@ -1489,9 +1455,44 @@
         margin-left: 10px;
         font-size: 30px;
     }
-    
-   
 
+    .service .proposal-icon-text{
+        display: flex;
+        margin-top: -20%;
+        
+    }
+    
+    .service .proposal-icon-text p{
+        font-size: 30px;
+        color: #666666;
+        font-weight: bolder;
+        margin-top: -50px;
+        margin-bottom: 20px;
+       
+        
+       
+      }
+      .service b{
+        height: 48px;
+        width: 48px;
+        color: white;
+        background-color: #121111;
+        border-radius: 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    .service b:hover{
+        color: black;
+        background-color: #caf715;
+    }
+
+    
+
+   
 
 
   
